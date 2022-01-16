@@ -89,3 +89,17 @@ https://skeletonreact.com/
       <div className="background">
         <ul className="listado">
           <li className="item">Loading...</li> -->
+
+useEffect 
+En el caso de que necesitemos llamar a un servicio siempre que gallillemos uevento, useEffect es una gran alternativa
+
+# Deploy 
+
+- Instalar
+>npm install --save-dev gh-pages
+- En package json añadir la siguiente linea
+> "homepage": "https://github.com/mauriciochavezpe/react-todo"
+- En "scripts" añadimos el atajo
+Usamos el "pre" para ejecutar antes de que ejecute la siguiente línea "deploy"
+  "predeploy": "npm run build"
+  "deploy" :"gh-pages -d build"
