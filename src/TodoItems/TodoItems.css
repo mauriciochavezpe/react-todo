@@ -1,0 +1,119 @@
+.list-item {
+  font-size: 25px;
+  font-weight: 500;
+
+  border: 1px solid #c3c3c3;
+  border-radius: 4px;
+  margin: 5px 0px;
+  position: relative;
+}
+.list-item-container {
+  width: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.close {
+  background: red;
+  color: white;
+}
+.change {
+  background: rgb(79, 79, 255);
+  color: white;
+}
+.list-item--btn {
+  /* padding: 5px;  */
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 4px;
+}
+.close:hover {
+  cursor: pointer;
+  background: rgb(242, 75, 75);
+}
+.change:hover {
+  background: rgb(134, 134, 248);
+}
+.list-item--complete {
+  text-decoration: line-through;
+}
+.box-preload {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: #c3c3c3; */
+  /* opacity: 0; */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: changecolor 3s infinite ;
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
+  }
+  50% {
+    background-color: #ececec;
+    border-color: #ececec;
+  }
+  100% {
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
+  }
+}
+/* prueba para el spinner corredizo*/
+/* *{
+   
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+
+.container{
+padding: 10px;
+margin: 1%;
+border: 0px solid grey;
+text-align: left;
+  
+}
+
+.listado{
+
+margin: 0;
+padding: 0 0 36px 0;
+list-style: none;
+
+}
+
+
+.item{
+border: 0px solid grey;
+padding: 20px;
+margin-top: 24px;
+box-shadow: 0px 10px 60px  rgba(32, 35, 41, 0.15);
+border-radius: 5px;
+   
+}
+.background {
+   animation-duration: 5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-name: preloadAnimation;
+   animation-timing-function: linear;
+   background: #f6f7f8;
+   background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+   display: absolute;
+       min-height: 150px;
+}
+
+@keyframes preloadAnimation{
+   0%{
+       background-position: -769px 0
+   }
+   100%{
+       background-position: 769px 0
+   }
+} */

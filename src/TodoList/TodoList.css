@@ -1,0 +1,12 @@
+.box-todo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box-todo--list {
+  width: 500px;
+}
+.list {
+  list-style: none;
+  /* padding: 10px 40px; */
+}

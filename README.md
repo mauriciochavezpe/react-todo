@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# Ref / Consideraciones
+
+- Usaremos una estructura modular
+- Los modulos usan una estructura CamelCase 
+
+https://dmitripavlutin.com/react-context-and-usecontext/
+#Portales
+
+# Tools 
+
+https://skeletonreact.com/
+
+
+>code 
+  <!-- <div className="container">
+      <div className="background">
+        <ul className="listado">
+          <li className="item">Loading...</li> -->

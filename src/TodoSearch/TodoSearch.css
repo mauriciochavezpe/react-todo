@@ -1,0 +1,19 @@
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.i-search{
+    padding: 4px 10px;
+}
+.box--modal-display{
+    display: relative;
+    z-index: 1;
+    font-weight: bold;
+    background-color:rgb(126, 163, 251) ;
+    color: #fff;
+    margin: 0px 2px;
+    padding: 0px 10px;
+    border: rgb(126, 163, 251);
+}
