@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mauriciochavezpe/react-todo/static/css/main.4423a697.css",
+    "main.js": "/mauriciochavezpe/react-todo/static/js/main.d3effaf1.js",
+    "index.html": "/mauriciochavezpe/react-todo/index.html",
+    "main.4423a697.css.map": "/mauriciochavezpe/react-todo/static/css/main.4423a697.css.map",
+    "main.d3effaf1.js.map": "/mauriciochavezpe/react-todo/static/js/main.d3effaf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4423a697.css",
+    "static/js/main.d3effaf1.js"
+  ]
+}
