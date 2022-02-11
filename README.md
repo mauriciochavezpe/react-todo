@@ -101,5 +101,5 @@ En el caso de que necesitemos llamar a un servicio siempre que gallillemos ueven
 > "homepage": "https://github.com/mauriciochavezpe/react-todo"
 - En "scripts" añadimos el atajo
 Usamos el "pre" para ejecutar antes de que ejecute la siguiente línea "deploy"
-  "predeploy": "npm run build"
-  "deploy" :"gh-pages -d build"
+  - "predeploy": "npm run build"
+  - "deploy" :"gh-pages -d build"
